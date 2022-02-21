@@ -1,0 +1,24 @@
+
+
+.contenedor{
+    background: url(/img/imgvid.jpg);
+    width: auto;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contenedor video{
+    width: 850px;
+    height: 450px;
+    top: 100px;
+    margin-top: 2%;
+}
+
+.gallery {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill);
+}
