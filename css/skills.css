@@ -1,7 +1,15 @@
 
-
+/* 
 .contenedor{
     background: url(/img/imgvid.jpg);
+    width: auto;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+} */
+.video{
+    /* background: url(/img/imgvid.jpg); */
     width: auto;
     height: 500px;
     text-align: center;
@@ -21,4 +29,33 @@
     gap: 1rem;
     grid-auto-rows: 22rem;
     grid-template-columns: repeat(auto-fill);
+}
+
+.main {
+    background: url(/img/imgvid.jpg); 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill);
+}
+
+.video-box {
+    border: 1px solid black;
+    max-width: 800px;
+    height: 10px;
+    margin: 10px auto 0;
+}
+
+/* .video {
+    padding: 20px 20px 20px;
+} */
+
+.video video {
+    width: 100%;
+    height: auto;
+    top: 50px;
+    margin-top: 0.1%;
 }
