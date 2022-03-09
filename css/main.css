@@ -2,9 +2,16 @@
     font-family: 'Bitter', serif;
 
 } */
-/* #navbar{
-    z-index: 1;
+/* .navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 } */
+
+
+
+/* ------------------- RIBOON SECTION -------------------------- */
 
 #ribbon{
     background-color: rgb(5, 11, 12);
@@ -121,4 +128,17 @@
     background-size: 50px 50px;
 }
 
+::-webkit-scrollbar{
+	width: .6rem;
+	border-radius: .5rem;
+	background-color: gray;
+}
 
+::-webkit-scrollbar-thumb{
+	background-color: rgb(255, 255, 255);
+	border-radius: .5rem;
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+	background-color: rgb(225, 225, 225);
+  }
