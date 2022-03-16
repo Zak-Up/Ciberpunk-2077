@@ -2,16 +2,21 @@
     font-family: 'Bitter', serif;
 
 } */
-/* .navbar{
+.navbar{
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
-} */
+    z-index: 15;
+}
 
 
 
 /* ------------------- RIBOON SECTION -------------------------- */
+
+#mainSlider{
+    margin-top: 6rem;
+}
 
 #ribbon{
     background-color: rgb(5, 11, 12);
@@ -142,3 +147,31 @@
   ::-webkit-scrollbar-thumb:hover{
 	background-color: rgb(225, 225, 225);
   }
+
+  /* --=== Scroll Top ===--- */
+
+.go-top{
+    display: inline-block;
+    padding: 5px;
+    background-color: cadetblue;
+    border-radius: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 3;
+    outline: 0;
+    transition: all 0.3s ease-out;
+}
+
+.go-top:hover{
+    background-color: white;
+    color: cadetblue;
+}
+
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+}
